@@ -25,7 +25,6 @@ class WindymallProductApplicationTests {
         List<BrandEntity> brandEntityList = brandService.list(new QueryWrapper<BrandEntity>().eq("brand_id", 1L));
         brandEntityList.forEach((item ->{
             System.out.println(item);
-
         }));
     }
 
