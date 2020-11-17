@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="renren-fast" />
+        <module name="renren-generator" />
+        <module name="windymall-common" />
+        <module name="windymall-coupon" />
+        <module name="windymall-member" />
+        <module name="windymall-order" />
+        <module name="windymall-product" />
+        <module name="windymall-ware" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+      <module name="windymall-coupon" options="-parameters" />
+      <module name="windymall-member" options="-parameters" />
+      <module name="windymall-order" options="-parameters" />
+      <module name="windymall-product" options="-parameters" />
+      <module name="windymall-ware" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -15,6 +15,15 @@
         <module>windymall-product</module>
         <module>windymall-ware</module>
         <module>windymall-order</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>windymall-common</module>
     </modules>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
 
 </project>
